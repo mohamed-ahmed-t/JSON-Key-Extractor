@@ -33,7 +33,7 @@ A simple, fast, and flexible Python tool to extract specific keys from flat or d
 ## 📂 Installation
 
 1. **Clone or Download** this repository/script.
-2. Place the Python script (`extractor.py`) in your project folder.
+2. Place the Python script (`json_extractor.py`) in your project folder.
 
 ---
 
@@ -44,7 +44,7 @@ A simple, fast, and flexible Python tool to extract specific keys from flat or d
 Run the script without arguments. It will prompt you to enter or drag-and-drop a file path and specify the key you want to extract:
 
 ```bash
-python extractor.py
+python json_extractor.py
 ```
 
 **Example Prompt Session:**
@@ -62,31 +62,14 @@ Success! Extracted 3 item(s) to: extracted_output.json
 Pass the input JSON file and target key directly as command-line arguments:
 
 ```bash
-python extractor.py <path_to_json_file> <target_key>
+python json_extractor.py <path_to_json_file> <target_key>
 ```
 
 **Example:**
 ```bash
-python extractor.py users.json name
+python json_extractor.py users.json name
 ```
 
----
-
-### Method 3: Standard Input (`stdin` / Piping)
-
-Pipe raw JSON or streamed file content directly into the script:
-
-**Linux / macOS:**
-```bash
-cat data.json | python extractor.py email
-```
-
-**Windows (PowerShell):**
-```powershell
-Get-Content data.json | python extractor.py email
-```
-
----
 
 ## 📝 Example Output
 
@@ -109,7 +92,7 @@ Get-Content data.json | python extractor.py email
 
 ### Command
 ```bash
-python extractor.py data.json email
+python json_extractor.py data.json email
 ```
 
 ### Result (`extracted_output.json`)
@@ -127,10 +110,10 @@ python extractor.py data.json email
 
 To make extraction even faster on Windows without using the command terminal:
 
-1. Create a file named `run.bat` in the same directory as `extractor.py`.
+1. Create a file named `run.bat` in the same directory as `json_extractor.py`.
 2. Add the following line to `run.bat`:
    ```cmd
-   python extractor.py %1
+   python json_extractor.py %1
    ```
 3. Simply **drag and drop any `.json` file directly onto `run.bat`**.
 
