@@ -117,3 +117,11 @@ Simply **drag and drop any `.json` file directly onto `Drop JSON file.bat`**.
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
+How To Use
+
+
+
+https://github.com/user-attachments/assets/735283b0-e063-4d55-af73-374de49b583c
+
+
