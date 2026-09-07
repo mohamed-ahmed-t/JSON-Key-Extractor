@@ -110,12 +110,7 @@ python json_extractor.py data.json email
 
 To make extraction even faster on Windows without using the command terminal:
 
-1. Create a file named `run.bat` in the same directory as `json_extractor.py`.
-2. Add the following line to `run.bat`:
-   ```cmd
-   python json_extractor.py %1
-   ```
-3. Simply **drag and drop any `.json` file directly onto `run.bat`**.
+Simply **drag and drop any `.json` file directly onto `Drop JSON file.bat`**.
 
 ---
 
