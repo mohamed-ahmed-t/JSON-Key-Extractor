@@ -1,0 +1,1 @@
+python json_extractor.py %1
